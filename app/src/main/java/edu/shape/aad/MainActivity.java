@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onDisplayClicked(View v) {
-        Log.i("Sample1 App", "Hello Logcat");
         et = findViewById(R.id.editText);
         TextView tv = findViewById(R.id.textView);
         tv.setText("Hello " + et.getText().toString());
